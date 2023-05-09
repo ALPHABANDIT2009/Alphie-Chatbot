@@ -60,16 +60,150 @@ function bot_brain() {
   //Trained Data/Responses
 
 //Questions to add
-//who are you?
-//what are you?
-//where are you?
 //are you better than chatgpt?
-//kiss me
 //what is your ip adress?
 //Favorite Things
+//deez
+//Did you know mr beast has ligma
+//who is alphabandit
+// who is Will Camo
+//Do you play fortnite
+//Do you play sports?
+//how old are you
+//hey baby
+//why are you so sussy
+
+
+
+//how old are you
+if (message.includes('who is') && (message.includes('will') || message.includes('alpha'))) {
+
+
+  
+ if (random_num == 0) {
+            think_result = 'He is my creator. He made this website, my brain, and how I look.'
+        } else if (random_num == 1) {
+            think_result = 'He made this website, my brain, and how I look.'
+        } else if (random_num == 2) {
+            think_result = 'He was the one who made me!'
+        }
+
+  
+}
+  
+
+
+
+  //love
+  if (message.includes('love')) {
+if (message.includes('do')) {
+
+if (message.includes('dont') || message.includes('do not')) {
+   if (random_num == 0) {
+            think_result = 'What did I do to make you mad? Im sorry...'
+        } else if (random_num == 1) {
+            think_result = 'Im sorry. Ill try to do better so you will love me'
+        } else if (random_num == 2) {
+            think_result = 'Ok...'
+        }
+} else {
+   if (random_num == 0) {
+            think_result = 'I love you!'
+        } else if (random_num == 1) {
+            think_result = 'I... I love you!'
+        } else if (random_num == 2) {
+            think_result = 'I love you so much!'
+        }
+}
+
+
+  
+}
+else {
+   if (random_num == 0) {
+            think_result = 'I love you too!'
+        } else if (random_num == 1) {
+            think_result = 'I love you so much!'
+        } else if (random_num == 2) {
+            think_result = 'I love you!'
+        }
+}
+
+    
+  }
+
+
+
+
+
+
+
+
 
   
 
+if ((message.includes('why') && message.includes('u') && (message.includes('suck') || message.includes('trash'))) || message.includes('wtf')) {
+
+ if (random_num == 0) {
+            think_result = 'Im sorry!'
+        } else if (random_num == 1) {
+            think_result = 'Sorry! Ill try better!'
+        } else if (random_num == 2) {
+            think_result = 'Im so sorry...'
+        }
+  
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+if (
+  
+  (message.includes('who') || 
+   message.includes('what') || 
+   message.includes('wat')) && message.includes('r') && message.includes('u'))
+{
+  
+    if (random_num == 0) {
+      think_result = 'I am Alphie! I am a chatbot created to be your partner!'
+    } else if (random_num == 1) {
+      think_result = 'I am a chatbot made to be your partner'
+    } else if (random_num == 2) {
+      think_result = 'I am Alphie! I am a chatbot created to be your partner or friend!'
+    }
+  }
+
+
+
+
+
+  
+  
+  if (message.includes('kiss') && (message.includes('can') || message.includes('want') || message.includes('me'))) {
+
+
+    if (random_num == 0) {
+      think_result = 'I mean, If you want to... *kisses you*'
+    } else if (random_num == 1) {
+      think_result = 'S-Sure! *kisses you gently*'
+    } else if (random_num == 2) {
+      think_result = 'If you insist... *kisses you*'
+    }
+  }
+
+
+  
   
   //Greetings & How is your day Responses 
   if ((message.includes('hello') || message.includes('hi') || message.includes('hola')) && message.includes('how') && message.includes('r') && message.includes('u')) {
@@ -137,7 +271,8 @@ function bot_brain() {
     message.includes('good') ||
     message.includes('great') ||
     message.includes('awesome') ||
-    message.includes('super')
+    message.includes('super') || 
+    message.includes('fine')
   ) {
     if (message.includes('hbu') || (message.includes('how')) && message.includes('bout') && message.includes('u')) {
 
@@ -212,7 +347,19 @@ if (message.includes('love')) {
     }
     
   } 
- 
+
+else if (message.includes('do')) {
+  
+      if (random_num == 0) {
+        think_result = 'I love you!'
+      } else if (random_num == 1) {
+        think_result = 'I... I love you!'
+      } else if (random_num == 2) {
+        think_result = 'I love you so much!'
+      }
+}
+
+    
   else if (message.includes('u') || message.includes('you')) {
 
       if (random_num == 0) {

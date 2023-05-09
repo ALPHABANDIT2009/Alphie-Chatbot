@@ -217,9 +217,10 @@ font-size: 15px;
          position: absolute;
         font-size: 15px;
         left: 50%;
-        top: 220px;
+        bottom:30px;
           cursor: pointer;
           transition: 0.5s;
+  color: white;
 }
 
 .github:hover {
